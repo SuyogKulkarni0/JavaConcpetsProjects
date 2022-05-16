@@ -1,0 +1,11 @@
+
+public class MACBookAir extends MACBook {
+	void start()
+	{
+		System.out.println("This is Inside MacBook Air");
+	}
+	void shutDown()
+	{
+		System.out.println("This is Inside MacBook Air Shut Down");
+	}
+}

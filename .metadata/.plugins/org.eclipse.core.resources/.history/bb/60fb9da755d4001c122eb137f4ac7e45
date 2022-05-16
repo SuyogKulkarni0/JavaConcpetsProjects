@@ -1,0 +1,13 @@
+
+public class Event {
+	int eventId;
+	String eventName;
+	String eventDescr;
+	public Event(int id,String name,String desc)
+	{
+		this.eventId=id;
+		this.eventDescr=desc;
+		this.eventName=name;
+	}
+
+}

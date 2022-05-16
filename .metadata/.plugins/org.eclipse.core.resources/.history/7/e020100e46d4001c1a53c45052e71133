@@ -1,0 +1,13 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		DemoClass c =new DemoClass;
+		c.setdetails();
+		System.out.println("Name : "+c.getName());
+		System.out.println("Emp Id : "+c.getId());
+		System.out.println("CreditCard Details : "+c.getCreditCard());
+		
+	}
+
+}

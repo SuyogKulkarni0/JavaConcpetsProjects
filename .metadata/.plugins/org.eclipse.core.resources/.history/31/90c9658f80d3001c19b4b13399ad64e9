@@ -1,0 +1,6 @@
+
+public class Test {
+	MACBook m = new MACBookPro();
+	m.run();
+	m.run();
+}

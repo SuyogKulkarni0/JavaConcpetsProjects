@@ -1,0 +1,11 @@
+
+public class MACBook {
+	void start()
+	{
+		
+	}
+	void shutdown()
+	{
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ParentClass&apos; to &apos;CompileTimeBind&apos;&#x0D;&#x0A;- Original project: &apos;CompileTimePolyMorphism&apos;&#x0D;&#x0A;- Original element: &apos;ParentClass&apos;&#x0D;&#x0A;- Renamed element: &apos;CompileTimeBind&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ParentClass&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ParentClass.java[ParentClass" matchStrategy="1" name="CompileTimeBind" qualified="false" references="true" similarDeclarations="false" stamp="1652529776463" textual="false" version="1.0"/>
+</session>

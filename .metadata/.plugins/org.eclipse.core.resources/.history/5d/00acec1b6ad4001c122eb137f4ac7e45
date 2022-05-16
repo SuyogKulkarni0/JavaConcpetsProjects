@@ -1,0 +1,10 @@
+
+public class ParsingException {
+	private String str = "abc";
+	private int a = Integer.parseInt(str);
+	int getValue()
+	{
+		return a;
+	}
+
+}

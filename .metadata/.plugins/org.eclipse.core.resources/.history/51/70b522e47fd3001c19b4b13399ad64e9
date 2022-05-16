@@ -1,0 +1,8 @@
+
+public class MACBookPro extends MACBook {
+	void run()
+	{
+		System.out.println("This is Inside MacBookPro Run");
+	}
+
+}

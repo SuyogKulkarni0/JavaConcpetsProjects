@@ -1,0 +1,6 @@
+
+public class ParsingException {
+	String str = "abc";
+	int a = Integer.parseInt(str);
+
+}

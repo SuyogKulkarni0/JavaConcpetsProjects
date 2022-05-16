@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class DemoClass {
+	private int id;
+	private String name;
+	private String creditCard;
+	void setdetails()
+	{
+		Scanner sc = new Scanner(System.in);
+		id = sc.nextInt();
+		name = sc.nextLine();
+		creditCard = sc.nextLine();
+		sc.close();
+	}
+	public int getId()
+	{
+		return id;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public String getCreditCard()
+	{
+		return creditCard;
+	}
+	
+}

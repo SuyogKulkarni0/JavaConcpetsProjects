@@ -1,0 +1,12 @@
+
+public class DownCastChild implements DownCastParent{
+
+	@Override
+	public void displayFun() {
+		// TODO Auto-generated method stub
+		System.out.println("This is DownCase Child Class Method Display()");
+
+		
+	}
+
+}

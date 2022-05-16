@@ -1,0 +1,10 @@
+
+public class Test {
+	public static void main(String args[])
+	{
+		EventInterface e = new EventCreation();
+		auto ex = e.create(110, "Suyog", "Marriage");
+		System.out.println(ex.getId());
+	}
+}
+

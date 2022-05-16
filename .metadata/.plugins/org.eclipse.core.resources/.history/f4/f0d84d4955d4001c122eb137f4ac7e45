@@ -1,0 +1,6 @@
+
+public class Test {
+	EventInterface e = new EventCreation();
+	e.create(112,"Sk","FK");
+
+}

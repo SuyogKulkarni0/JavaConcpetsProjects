@@ -1,0 +1,8 @@
+
+public class Event {
+	int eventId;
+	String eventName;
+	String eventDescr;
+	
+
+}
