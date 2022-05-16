@@ -1,16 +1,23 @@
-import java.util.Scanner;
-
-public class DivisionException {
+import java.util.*;
+public class DivisionException{
 	private int a,b,c;
-	void setValue()
-	{
+	void setValues() {
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
-		c = a/b;
-		System.out.println("Division is : "+c);
-		System.out.print("More code comes here .. ");
-	}
-
+		try {
+			c = a/b;
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("The Division by zero is not Possible here !!");
+		}
+		System.out.println("Here comes the more code to go !!");
 	
+}
+	public static void main(String[] args) {
+		DivisionException e = new DivisionException();
+		e.setValues();
+		
+}
 }

@@ -1,0 +1,20 @@
+
+public class ParsingException {
+	private String str = "abc";
+	{
+		try {
+				int a = Integer.parseInt(str);
+		}
+		catch()
+		{
+			
+		}
+	}
+	
+	// string abc can not be converted to integer thus exception raises..
+	int getValue()
+	{
+		return a;
+	}
+
+}

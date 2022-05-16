@@ -1,0 +1,12 @@
+Exception Handling in Java
+
+Java has Parent Class Throwable as for Exception handling
+There are two classes for Error and Exception handling as child class :
+1. Error
+      The error caused by this class are unhadleable 
+      Like NoClassDefinationFound,OutOfMemory,NoSuchMethodFound 
+      These can not be handled on the go that is on runtime.
+2. Exception :
+      This class has a child class called RuntimeException. RuntimeException handles the error that are called unchecked exceptions like ArithmaticException,NullPointerException
+
+      Those Exception that are directly handled by Exception class are called Checked Exceptions like IOExceptions,SQLException,FileNotFoundException

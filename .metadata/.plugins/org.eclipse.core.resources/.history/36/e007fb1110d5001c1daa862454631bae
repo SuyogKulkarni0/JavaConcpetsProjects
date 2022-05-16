@@ -1,0 +1,8 @@
+
+public class NullPointeException {
+	DivisionException e;
+	public static void main(String[] args) {
+		e.Example();
+	}
+
+}
