@@ -1,5 +1,5 @@
 
-public class MacBook implements AppleLaptop{
+public class MacBook implements AppleLaptop {
 
 	@Override
 	public void start() {
